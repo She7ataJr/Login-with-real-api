@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>smart login </title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <section class="vh-100 gradient-custom">
+    <div class="layer">
+      <div class="container">
+        <div class="row">
+          <div class="container-card">
+            <div class="row custom">
+              <div class="col-lg-6">
+                <div class="main-img  d-flex justify-content-center align-items-center">
+                  <img src="images/Image Placeholder (2).png" alt="sample-img" class="w-75">
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="create-container">
+                  <p class="create-text-head ">Create Account</p>
+                  <p class="create-text-paragraph">We're glad you're here! Sign up to start</p>
+                  
+              </div>
+                <div class="form">
+                <form action="home.html" id="form">
+
+                    <div class="form mb-4">
+                      <input type="text" id="usernameInput" name="username"  class="form-control form-control" placeholder="Username" required/>
+                      <div class="d-none alert alert-danger text-center" id="usernameAlert">username is invalid</div>
+                    </div>
+    
+                    <div class="form-outline mb-4">
+                      <input type="email" id="emailInput" name="email"  class="form-control form-control" placeholder="Email" required />
+                      <div class="d-none alert alert-danger" id="emailAlert">email incrroect</div>
+                    </div>
+    
+                    <div class="form-outline mb-4">
+                      <input type="password" id="passwordInput" name="password" class="form-control form-control" placeholder="Passowrd" required/>
+                      <div class="d-none alert alert-danger" id="passwordAlert">password incorrect</div>
+                    </div>
+    
+                    <div class="form-outline mb-4">
+                      <input type="password" id="repasswordInput" name="password_confirmation" class="form-control form-control" placeholder="confirm password" required/>
+                      <div class="d-none alert alert-danger" id="repasswordAlert">password dosen't match.. please try again</div>
+                    </div>                
+                    <div class="form-button">
+                      <button class="bbtn" id="signup"   type="submit"  disabled >Create account </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>        
+      </div>
+    </div>
+  </section>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src='js/main.js'></script>
+</body>
+
+</html>
