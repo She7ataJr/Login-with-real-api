@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>smart login </title>
-  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -32,23 +32,27 @@
                 <div class="form">
                 <form action="home.html" id="form">
 
-                    <div class="form mb-4">
-                      <input type="text" id="usernameInput" name="username"  class="form-control form-control" placeholder="Username" required/>
+                    <div class="form position-relative mb-4">
+                      <span><i class="fa-regular fa-user"></i></span>
+                      <input type="text" id="usernameInput" name="username"  class="form-control form-control ps-5" placeholder="Username" required/>
                       <div class="d-none alert alert-danger text-center" id="usernameAlert">username is invalid</div>
                     </div>
     
-                    <div class="form-outline mb-4">
-                      <input type="email" id="emailInput" name="email"  class="form-control form-control" placeholder="Email" required />
+                    <div class="form-outline position-relative mb-4">
+                      <span><i class="fa-regular fa-envelope"></i></span>
+                      <input type="email" id="emailInput" name="email"  class="form-control form-control ps-5" placeholder="Email" required />
                       <div class="d-none alert alert-danger" id="emailAlert">email incrroect</div>
                     </div>
     
-                    <div class="form-outline mb-4">
-                      <input type="password" id="passwordInput" name="password" class="form-control form-control" placeholder="Passowrd" required/>
+                    <div class="form-outline position-relative mb-4">
+                      <span><i class="fa-solid fa-lock"></i></span>
+                      <input type="password" id="passwordInput" name="password" class="form-control form-control ps-5" placeholder="Passowrd" required/>
                       <div class="d-none alert alert-danger" id="passwordAlert">password incorrect</div>
                     </div>
     
-                    <div class="form-outline mb-4">
-                      <input type="password" id="repasswordInput" name="password_confirmation" class="form-control form-control" placeholder="confirm password" required/>
+                    <div class="form-outline position-relative mb-4">
+                      <span><i class="fa-solid fa-lock"></i></span>
+                      <input type="password" id="repasswordInput" name="password_confirmation" class="form-control ps-5 form-control" placeholder="confirm password" required/>
                       <div class="d-none alert alert-danger" id="repasswordAlert">password dosen't match.. please try again</div>
                     </div>                
                     <div class="form-button">

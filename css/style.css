@@ -75,6 +75,13 @@ flex-grow: 1;
 .form{
   background: transparent !important;
 }
+i{
+  position: absolute;
+  top: 10%;
+  left: 2%;
+  font-size: 26px;
+  color: #9CADF2;
+}
 .custom{
 background: rgba(245, 247, 255, 0.85);
 border-radius: 10px;
