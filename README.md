@@ -9,6 +9,3 @@
 ### Display frontend validation errors below each input
 ### Use “fetch” to send user data to this endpoint https://goldblv.com/api/hiring/tasks/register, using “POST” method and type of “application/json”, request body should have username, email, password and password_confirmation 
 ### Display validation errors from api below each input
-### If no errors from api, direct user to the last page (logged in successfully), where his email is displayed from sessionStorage, localStorage or cookies
-### 4- Upload your completed task to GitHub, then use link to repository to submit your job application form
-### Don’t forget to pay attention to clean code
